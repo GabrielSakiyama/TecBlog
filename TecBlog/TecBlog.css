@@ -1,0 +1,111 @@
+/*Formatação geral*/
+    *{
+        font-family: arial;
+    
+    }   
+    
+    body{
+        margin:0px;
+    } 
+
+    .tituloGeral{
+        background-color: gray;
+        color: rgb(59, 59, 59);
+        padding: 5px;
+    }
+
+/*FORMATAÇÂO CABEÇALHO*/
+    #Logo{  
+        background-color: orange;
+        text-align: center;
+        padding: 15px;
+        margin:0px;
+    }
+
+    #Tec{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    #Blog{
+        font-weight: bold;
+        color: white;
+        font-size: 1.3em;
+    }
+
+        /*Formatar link cabeçalho*/
+
+    #espacoLinkTitulo{
+        margin-top:10px;
+    }
+
+    .linkCabecalho{
+        color:white;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 3px;
+    
+    }   
+
+    .Link:hover{
+        background-color:white;
+        color: orange;
+        border-radius: 10px;
+        transition: 1s;
+    }
+
+/*Link geral*/
+
+    .leiaMais, .Categorias{
+        text-decoration: none;
+        color:orange;
+        
+    }
+
+    .leiaMaisHover:hover{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+
+    .Categorias{
+        font-weight: bold;
+        display:block;
+    }
+
+/*Conteudo*/
+
+    #divCont{
+        width: 80%;
+        margin:0 auto;  
+        margin-top: 10px;
+    
+    }
+
+    #conteudoEsquerda{
+        background-color:rgb(247, 241, 241);
+        float:left;
+        width: 600px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    #conteudoDireita{
+        background-color: rgb(247, 241, 241);
+        width: 300px;
+        height: auto;
+        float:right;
+        margin-bottom:10px;
+    }
+
+    .link2:hover{
+        text-decoration: underline;
+    }
+    /*Rodape*/
+
+    #Rodape{
+        background-color:gray ;
+        text-align: center;
+        clear:both;
+    }
+
