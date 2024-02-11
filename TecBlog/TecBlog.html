@@ -1,22 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TecBlog</title>
+    <title>TecBlogFlex</title>
     <link rel="stylesheet" href="TecBlog.css">
 </head>
-<body> 
-        <!--
-            Diferença deste pra o primeiro é que vou usar uma div a menos no conteudo
-            para posicionar os elemtos. Para isso vou centralizar usando a margin
-            e posicionar usando o float.
-
-        -->
-
+<body>   
         <!--CABEÇALHO-->
-        <div id="Logo">
+        <header id="Logo">
 
             <span id="Tec">Tec</span><span id="Blog">Blog</span>
         
@@ -29,41 +22,43 @@
                 <a href="" class="linkCabecalho Link">Eletrônicos</a>
             </div>
 
-        </div>
+        </header>
 
 
         <!--Conteudos-->
-
+   
         <div id="divCont">
             
-            <div id="conteudoEsquerda">
-                <h4 style="margin-bottom:0px;">Titulo Postagem</h4>
-                <span>Postagens 1</span>
+            <main id="caixaPrincipal">
+                <section id="conteudoEsquerda">
+                    <h4 style="margin-bottom:0px;">Titulo Postagem</h4>
+                    <span>Postagens 1</span>
 
-                <img src="imagem2.jpg" width="600" height="350">
-                <a href="" class="leiaMais leiaMaisHover">Leia mais</a>
-            </div>
-             
+                    <img src="imagem2.jpg" class="imagem">
+                    <a href="" class="leiaMais leiaMaisHover">Leia mais</a>
+                
+                </section>
+                    <aside id="caixaDireita">
+                        <div id="conteudoDireita">
 
-            <div id="conteudoDireita">
+                            <h4 class="tituloGeral">Postagens mais recentes</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <hr>
+                            <a href="" class="leiaMais">Leia mais</a>
+                        </div>
 
-                <h4 class="tituloGeral">Postagens mais recentes</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                <hr>
-                <a href="" class="leiaMais">Leia mais</a>
-            </div>
+                        <div id="conteudoDireita">
 
-            <div id="conteudoDireita">
-
-                <h4 class="tituloGeral">Categorias</h4>
-                <a href="" class="Categorias link2">Jogos</a>
-                <a href="" class="Categorias link2">Celulares</a>
-                <a href="" class="Categorias link2">Informática</a>
-                <a href="" class="Categorias link2">Eletrônicos</a>
-            </div>
-
+                            <h4 class="tituloGeral">Categorias</h4>
+                            <a href="" class="Categorias link2">Jogos</a>
+                            <a href="" class="Categorias link2">Celulares</a>
+                            <a href="" class="Categorias link2">Informática</a>
+                            <a href="" class="Categorias link2">Eletrônicos</a>
+                      </div>
+                    </aside>
+            </main>
             <h4 id="Rodape">Todos os direitos reservados</h4>
         </div>
-
+    
 </body>
 </html>
